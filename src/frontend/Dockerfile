@@ -1,4 +1,4 @@
-FROM node:18-alpine3.17 AS builder
+FROM --platform=linux/amd64 node:18-alpine3.17 AS builder
 
 WORKDIR /app
 
@@ -9,7 +9,6 @@ COPY . .
 RUN npm run build
 
 FROM nginx:1.22.1-alpine
-
 
 WORKDIR /app
 COPY --from=builder /app/build /usr/share/nginx/html
