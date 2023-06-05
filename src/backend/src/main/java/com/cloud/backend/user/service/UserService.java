@@ -29,4 +29,13 @@ public class UserService {
     public User findByUsername(String userName) {
         return userRepository.findByUser(userName);
     }
+
+    public void updateScore(String userName, Integer newScore) {
+        User user = userRepository.findByUser(userName);
+        if (user != null) {
+            user.setScore(newScore);
+            userRepository.save(user);
+        }
+    }
+
 }
