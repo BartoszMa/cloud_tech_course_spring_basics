@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="269fb5e4-583b-4fa3-a6ab-f29a86075a5f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../deployments/mongodb-statefulset.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../deployments/mongodb-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../deployments/mongodb-service.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +33,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "frontend",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
